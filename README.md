@@ -4,7 +4,7 @@ Production-ready static Amazon India affiliate website.
 
 Affiliate tag configured throughout the website:
 
-`gopikamageshw-21`
+`gopikamages0a-21`
 
 ## Included
 
@@ -41,7 +41,7 @@ GitHub will display the exact public URL for your repository on the **Settings â
 
 Every Amazon.in shopping link already includes:
 
-`tag=gopikamageshw-21`
+`tag=gopikamages0a-21`
 
 The required site disclosure is visible across the site:
 
