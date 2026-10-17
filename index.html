@@ -1,177 +1,42 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Independent product buying guides for shoppers in India, with clear Amazon Associate disclosure.">
-<meta name="theme-color" content="#132033">
-<title>Best Product Hub | Best Product Hub</title>
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore curated product picks by category with straightforward descriptions and direct Amazon links.">
+  <meta name="theme-color" content="#f6f8ff">
+  <title>Best Product Hub | Curated picks</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
 </head>
 <body>
-
-<div class="associate-bar">
-  <div class="container">
-    <strong>Affiliate disclosure:</strong> As an Amazon Associate I earn from qualifying purchases.
-  </div>
-</div>
-<header class="site-header">
-  <div class="container nav-wrap">
-    <a class="brand" href="index.html" aria-label="Best Product Hub home">
-      <span class="brand-mark">B</span>
-      <span>Best Product Hub</span>
-    </a>
-    <button class="menu-button" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open navigation">☰</button>
-    
-<nav class="site-nav" id="siteNav" aria-label="Primary navigation">
-  <a href="index.html#guides">Buying Guides</a>
-  <a href="methodology.html">How We Choose</a>
-  <a href="about.html">About</a>
-  <a href="disclosure.html">Disclosure</a>
-</nav>
-
-  </div>
-</header>
-
-
-<main>
-<section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <p class="eyebrow">Independent buying guidance</p>
-      <h1>Choose better. Buy with confidence.</h1>
-      <p class="hero-copy">Best Product Hub helps shoppers in India compare what matters before buying—features, fit, trade-offs, maintenance, and practical use.</p>
-      <div class="hero-actions">
-        <a class="button button-primary" href="#guides">Explore buying guides</a>
-        <a class="button button-secondary" href="methodology.html">How we choose</a>
+  <header class="site-header">
+    <div class="affiliate-banner"><strong>Affiliate disclosure:</strong> As an Amazon Associate I earn from qualifying purchases.</div>
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Best Product Hub homepage"><span class="brand-icon">✦</span><span id="brandName">Best Product Hub</span></a>
+      <nav class="header-nav" aria-label="Main navigation"><a class="nav-link active" aria-current="page" href="index.html">Home</a><a class="nav-link" href="about.html">About</a><a class="nav-link" href="disclosure.html">Disclosure</a><a class="header-action" href="#catalog">Explore products <span aria-hidden="true">↗</span></a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero container" aria-labelledby="heroTitle">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="hero-content">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> SIMPLE PICKS. SMARTER SHOPPING.</span>
+        <h1 id="heroTitle">Find your next <span>favorite product.</span></h1>
+        <p>Explore handpicked products in one clean place. Search, discover and visit the exact product on Amazon.</p>
+        <a href="#catalog" class="hero-button">Browse products <span aria-hidden="true">↓</span></a>
       </div>
-      <div class="trust-row"><span>✓ Original buying guidance</span><span>✓ No copied retailer reviews</span><span>✓ Clear affiliate disclosure</span></div>
-    </div>
-    <aside class="hero-panel">
-      <span class="pill">Shopping checklist</span>
-      <h2>Buy for your use case, not the longest feature list.</h2>
-      <p>Before purchasing, confirm the factors that affect your daily experience:</p>
-      <ul><li>Compatibility and dimensions</li><li>Warranty and local service</li><li>Durability and maintenance</li><li>Current seller and return terms</li></ul>
-    </aside>
-  </div>
-</section>
-
-<section class="section" id="guides">
-  <div class="container">
-    <div class="section-heading">
-      <div><p class="eyebrow">Buying guides</p><h2>Start with the right questions</h2></div>
-      <p>Each guide focuses on the decision factors that matter before you open a retailer page.</p>
-    </div>
-    <div class="toolbar">
-      <label class="search"><span aria-hidden="true">⌕</span><input id="guideSearch" type="search" placeholder="Search buying guides…" aria-label="Search buying guides"></label>
-      <div class="filters" id="guideFilters" aria-label="Filter guides by category"></div>
-    </div>
-    <p class="result-count" id="guideCount" aria-live="polite"></p>
-    <div class="guide-grid"><article class="guide-card" data-guide-card data-category="Electronics">
-      <div class="guide-top"><span class="guide-icon" aria-hidden="true">🎧</span><span class="guide-category">Electronics</span></div>
-      <div class="guide-body"><h3>Wireless Earbuds Buying Guide</h3><p>Choose earbuds by fit, microphone quality, codec support, controls, battery practicality, and water resistance.</p><a class="text-link" href="wireless-earbuds.html">Read the guide →</a></div>
-    </article>
-<article class="guide-card" data-guide-card data-category="Electronics">
-      <div class="guide-top"><span class="guide-icon" aria-hidden="true">🔋</span><span class="guide-category">Electronics</span></div>
-      <div class="guide-body"><h3>Power Bank Buying Guide</h3><p>Understand capacity, charging speed, ports, cable compatibility, portability, and airline-friendly considerations.</p><a class="text-link" href="power-banks.html">Read the guide →</a></div>
-    </article>
-<article class="guide-card" data-guide-card data-category="Electronics">
-      <div class="guide-top"><span class="guide-icon" aria-hidden="true">🔊</span><span class="guide-category">Electronics</span></div>
-      <div class="guide-body"><h3>Bluetooth Speaker Buying Guide</h3><p>Compare portability, sound balance, water resistance, battery life, connectivity, and room size.</p><a class="text-link" href="bluetooth-speakers.html">Read the guide →</a></div>
-    </article>
-<article class="guide-card" data-guide-card data-category="Home & Kitchen">
-      <div class="guide-top"><span class="guide-icon" aria-hidden="true">🪑</span><span class="guide-category">Home & Kitchen</span></div>
-      <div class="guide-body"><h3>Office Chair Buying Guide</h3><p>Focus on seat comfort, lumbar support, adjustability, dimensions, build quality, and desk compatibility.</p><a class="text-link" href="office-chairs.html">Read the guide →</a></div>
-    </article>
-<article class="guide-card" data-guide-card data-category="Home & Kitchen">
-      <div class="guide-top"><span class="guide-icon" aria-hidden="true">🥣</span><span class="guide-category">Home & Kitchen</span></div>
-      <div class="guide-body"><h3>Mixer Grinder Buying Guide</h3><p>Compare motor suitability, jar sizes, blade use, overload protection, cleaning, warranty, and service access.</p><a class="text-link" href="mixer-grinders.html">Read the guide →</a></div>
-    </article>
-<article class="guide-card" data-guide-card data-category="Home & Kitchen">
-      <div class="guide-top"><span class="guide-icon" aria-hidden="true">🍟</span><span class="guide-category">Home & Kitchen</span></div>
-      <div class="guide-body"><h3>Air Fryer Buying Guide</h3><p>Choose capacity, basket shape, temperature range, cleaning design, countertop size, and controls.</p><a class="text-link" href="air-fryers.html">Read the guide →</a></div>
-    </article>
-<article class="guide-card" data-guide-card data-category="Fitness">
-      <div class="guide-top"><span class="guide-icon" aria-hidden="true">🧘</span><span class="guide-category">Fitness</span></div>
-      <div class="guide-body"><h3>Yoga Mat Buying Guide</h3><p>Compare thickness, grip, material, dimensions, portability, cleaning, and practice style.</p><a class="text-link" href="yoga-mats.html">Read the guide →</a></div>
-    </article>
-<article class="guide-card" data-guide-card data-category="Travel">
-      <div class="guide-top"><span class="guide-icon" aria-hidden="true">🎒</span><span class="guide-category">Travel</span></div>
-      <div class="guide-body"><h3>Travel Backpack Buying Guide</h3><p>Evaluate capacity, carry comfort, laptop protection, opening style, organization, materials, and airline limits.</p><a class="text-link" href="travel-backpacks.html">Read the guide →</a></div>
-    </article>
-<article class="guide-card" data-guide-card data-category="Personal Care">
-      <div class="guide-top"><span class="guide-icon" aria-hidden="true">✂️</span><span class="guide-category">Personal Care</span></div>
-      <div class="guide-body"><h3>Beard Trimmer Buying Guide</h3><p>Compare cutting lengths, blade maintenance, battery runtime, charging, waterproofing, and included attachments.</p><a class="text-link" href="beard-trimmers.html">Read the guide →</a></div>
-    </article>
-<article class="guide-card" data-guide-card data-category="Books">
-      <div class="guide-top"><span class="guide-icon" aria-hidden="true">📚</span><span class="guide-category">Books</span></div>
-      <div class="guide-body"><h3>Productivity Books Buying Guide</h3><p>Choose productivity books based on the problem you want to solve, evidence quality, writing style, and practical exercises.</p><a class="text-link" href="productivity-books.html">Read the guide →</a></div>
-    </article></div>
-  </div>
-</section>
-
-<section class="section section-soft">
-  <div class="container">
-    <div class="section-heading">
-      <div><p class="eyebrow">Our approach</p><h2>Useful before you click</h2></div>
-      <p>We do not reproduce Amazon customer ratings, reviews, or changing prices. Our content focuses on evergreen buying considerations.</p>
-    </div>
-    <div class="principles">
-      <article class="principle"><span>01</span><h3>Use-case first</h3><p>We start with the problem you are trying to solve rather than a retailer listing.</p></article>
-      <article class="principle"><span>02</span><h3>Trade-offs matter</h3><p>More features are not automatically better. We explain where priorities differ.</p></article>
-      <article class="principle"><span>03</span><h3>Verify before buying</h3><p>Specifications, prices and availability can change, so the retailer page is the final check.</p></article>
-      <article class="principle"><span>04</span><h3>Affiliate transparency</h3><p>Amazon links are identified as paid links and our Associate status is disclosed clearly.</p></article>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container faq">
-    <div class="section-heading"><div><p class="eyebrow">FAQ</p><h2>Before you shop</h2></div></div>
-    <details><summary>Does Best Product Hub sell products?</summary><p>No. Best Product Hub publishes buying guides and may link to products or searches on third-party retailers. Purchases, payments, delivery, returns and support are handled by the retailer or seller.</p></details>
-    <details><summary>Why are there no live prices?</summary><p>Retail prices and offers can change frequently. We avoid showing potentially outdated prices and ask readers to verify the current price on the retailer page.</p></details>
-    <details><summary>Do affiliate commissions change recommendations?</summary><p>Our editorial approach is based on buyer needs and product-selection criteria. Affiliate links may earn a commission when a qualifying purchase is made, without changing the price paid by the reader.</p></details>
-  </div>
-</section>
-
-<section class="cta">
-  <div class="container cta-box">
-    <div><p class="eyebrow">Shop thoughtfully</p><h2>Read the guide. Check the retailer. Decide for yourself.</h2><p>Every category guide includes clearly marked Amazon.in affiliate links for shoppers who want to continue researching products.</p></div>
-    <a class="button button-light" href="#guides">Browse guides</a>
-  </div>
-</section>
-</main>
-
-
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <a class="brand footer-brand" href="index.html">
-        <span class="brand-mark">B</span><span>Best Product Hub</span>
-      </a>
-      <p>Independent buying guides focused on practical product selection for shoppers in India.</p>
-      <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-    <div class="footer-links">
-      <strong>Explore</strong>
-      <a href="index.html#guides">Buying Guides</a>
-      <a href="methodology.html">How We Choose</a>
-      <a href="about.html">About</a>
-    </div>
-    <div class="footer-links">
-      <strong>Policies</strong>
-      <a href="disclosure.html">Affiliate Disclosure</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="terms.html">Terms</a>
-    </div>
-  </div>
-  <div class="container footer-bottom">
-    <span>© <span data-year></span> Best Product Hub. All rights reserved.</span>
-    <span>Product availability and retailer information can change.</span>
-  </div>
-</footer>
-<script src="script.js"></script>
-
+      <div class="hero-stats" aria-label="Catalog overview"><div><strong id="productTotal">20</strong><span>Products</span></div><div class="stat-divider"></div><div><strong>22</strong><span>Categories</span></div></div>
+    </section>
+    <section class="catalog container" id="catalog" aria-labelledby="catalogTitle">
+      <div class="section-head"><div><span class="section-kicker">EXPLORE THE COLLECTION</span><h2 id="catalogTitle">Discover products</h2><p>Everything in one place. No clutter, just useful finds.</p></div></div>
+      <div class="filter-bar"><label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">Search products</span><input id="searchInput" type="search" placeholder="Search product name or description…" autocomplete="off"></label><label class="select-field"><span class="sr-only">Choose category</span><select id="categoryFilter"><option value="All categories">All categories</option></select></label><button type="button" id="resetButton" class="reset-button">Clear filters</button></div>
+      <div class="results-bar"><span id="resultCount" role="status" aria-live="polite"></span><span id="rangeCount"></span></div>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="empty-state" id="emptyState" hidden><span aria-hidden="true">⌕</span><h3>No products found</h3><p>Try another search or category. New products can be added to the catalog anytime.</p></div>
+      <nav class="pagination" id="pagination" aria-label="Product pagination"></nav>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><div><strong>✦ Best Product Hub</strong><p>Made for easy discoveries.</p></div><p class="disclosure">As an Amazon Associate, we earn from qualifying purchases. Product availability and details are provided by Amazon; please verify before buying.</p><span class="footer-links"><a href="about.html">About</a><a href="disclosure.html">Disclosure</a> · © <span id="year"></span></span></div></footer>
 </body>
 </html>
